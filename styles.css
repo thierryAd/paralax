@@ -1,0 +1,33 @@
+ body{
+     margin: 0;
+     padding: 0;
+ }
+ .parallax-effect {
+      background-image: url("images/canuts.jpg");
+      height: 100vh; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+.contenu{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh; 
+     background: grey;
+}
+p{
+      margin: 0;
+      width: 60%;
+      font-size:36px; 
+      text-align: center; 
+      }
+
+.section2{
+     height: 100vh; 
+background: url("images/lyon.jpg") no-repeat center center fixed;
+background-size: cover;
+ 
+}
